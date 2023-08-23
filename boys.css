@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/boys1.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+.navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	width: 80px;
+	cursor: pointer;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 80px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 17px;
+}
+.row{
+	display: flex;
+	height: 75%;
+	width: 100%;
+	align-items: center;
+}
+.col{
+	
+}
+
+a{
+	text-decoration: none;
+}
+.card{
+	width: 220px;
+	height: 180px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 15px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 5px 15px;
+	background-position: center;
+	background-size: cover;
+	transition: transfor 0.5s;
+}
+.card1{
+	background-image: url(images/abdu.jpg);
+}
+.card2{
+	background-image: url(images/bilal.jpg);
+}
+.card3{
+	background-image: url(images/haris.jpg);
+}
+.card4{
+	background-image: url(images/faraz.jpg);
+}
+.card5{
+	background-image: url(images/abdullah.jpg);
+}
+.card6{
+	background-image: url(images/imran.jpg);
+}
+.card7{
+	background-image: url(images/ayyaz.jpg);
+}
+.card8{
+	background-image: url(images/nasir.jpg);
+}
+.card9{
+	background-image: url(images/azeem.jpg);
+}
+
+.card:hover{
+	transform: translateY(-10px);
+}
+h5{
+	color: #fff;
+	text-shadow: 0 0 5px #999;
+}
+h1{
+	color: #fff;
+	font-size: 100px;
+	padding-top: 150px;
+}
+p{
+	color: #fff;
+	font-size: 16px;
+}
